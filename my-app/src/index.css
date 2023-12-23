@@ -1,0 +1,49 @@
+ 
+
+.container {
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8rem;
+  height: 15em;
+}
+
+button {
+  height: 3em;
+  width: 3em;
+  border: none;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+.ImageContainer {
+  width: 30%;  
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 438px) {
+  .ImageContainer{
+    width: 80%;
+ 
+  }
+
+  .ImageContainer img{
+    aspect-ratio: 1/1;
+  }
+
+  .carousel{
+    margin-top: 3.5em;
+  }
+}
