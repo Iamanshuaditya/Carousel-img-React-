@@ -19,13 +19,13 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone  https://github.com/Iamanshuaditya/Carousel-img-React-.git
 ```
 
 ### Navigate to the Project Directory
 
 ```bash
-cd your-repo
+cd my-app
 ```
 
 ### Install Dependencies
